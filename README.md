@@ -25,7 +25,7 @@ The notebook presents the results visually but if you want to restart the code y
 
 The models we used are all stored in the 'memory' repository in the FullModels folder.
 
-If you want to use a different keras model you just have to register it in the following way: 
+If you want to use a different keras model you just have to save it in the following way: 
 
     model.save("path")
     tensorflow.keras.models.save(model,"path") # Alternative
